@@ -1,0 +1,37 @@
+<!-- Broken Pricing Card -->
+<div class="card">
+  <h2>Pro Plan</h2>
+  <p>$29/month</p>
+  <ul>
+    <li>10 Projects</li>
+    <li>5 GB Storage</li>
+  </ul>
+  <button>Buy Now</button>
+</div>
+
+<style>
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    background: white;
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    /* Button doesn't work due to missing JS */
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100px; /* way too small */
+    }
+  }
+</style>
+
+<script>
+  // Button doesn't do anything
+</script>

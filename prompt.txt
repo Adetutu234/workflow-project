@@ -1,0 +1,8 @@
+PROMPTS
+
+FIXING LAYOUT
+1. Fix layout issues in this pricing card. Make the design responsive and ensure all buttons work.
+
+REFACTORING
+2. Turn this into a reusable function or component: Card(title, price, features).
+
